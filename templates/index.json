@@ -581,7 +581,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Scale Hardware</p>",
+                    "text": "<p>Tools</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -664,7 +664,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Scale Hardware</p>",
+                    "text": "<p>Tire & Wheel</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -747,7 +747,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Scale Hardware</p>",
+                    "text": "<p>Reference Materials</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -774,6 +774,32 @@
                 "icon_TnXBqw",
                 "text_fmfeWt"
               ]
+            },
+            "text_pbditn": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h4>Shop by Model</h4>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             },
             "group_CGgYEe": {
               "type": "group",
@@ -830,7 +856,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Scale Hardware</p>",
+                    "text": "<p>Alfa Romeo</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -913,7 +939,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Scale Hardware</p>",
+                    "text": "<p>Bugatti</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -948,6 +974,7 @@
             "group_LGmAaq",
             "group_iamDdh",
             "group_J6pmH4",
+            "text_pbditn",
             "group_CGgYEe",
             "group_7JyCBz"
           ]
