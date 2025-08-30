@@ -374,6 +374,63 @@
         "padding-block-end": 0
       }
     },
+    "collection_links_hj7qnN": {
+      "type": "collection-links",
+      "blocks": {
+        "link": {
+          "type": "_collection-link",
+          "static": true,
+          "settings": {
+            "show_count": true
+          },
+          "blocks": {
+            "title": {
+              "type": "_inline-collection-title",
+              "name": "t:names.title",
+              "static": true,
+              "settings": {
+                "font": "var(--font-subheading--family)",
+                "weight": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none"
+              },
+              "blocks": {}
+            },
+            "image": {
+              "type": "_image",
+              "static": true,
+              "settings": {
+                "height": "medium",
+                "ratio": "portrait",
+                "border_radius": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": []
+        }
+      },
+      "name": "t:names.collection_links_text",
+      "settings": {
+        "collection_list": [
+          "alfa-romeo",
+          "best-sellers",
+          "best-selling-products",
+          "bugatti",
+          "fiat",
+          "legrand-store-1",
+          "legrand-store"
+        ],
+        "layout": "spotlight",
+        "section_width": "page-width",
+        "alignment": "center",
+        "image_position": "right",
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
     "section_M6fNPt": {
       "type": "section",
       "blocks": {
@@ -1645,7 +1702,7 @@
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "row",
-        "vertical_on_mobile": false,
+        "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
         "align_baseline": false,
@@ -2227,6 +2284,7 @@
   },
   "order": [
     "section_jBWUdM",
+    "collection_links_hj7qnN",
     "section_M6fNPt",
     "section_n8dCtR",
     "product_list_fa6P9H",
